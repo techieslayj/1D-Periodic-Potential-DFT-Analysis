@@ -25,9 +25,9 @@ I begin this repository by posting some of the more important code files for my 
   
 # Still to come:
 
-  K-point sampling for Brillouin zones (important contribution of Bloch's Theorem, consider only k within cell in reciprocal space)
-  Prove/Disprove Peierls' Theorem (states a one-dimensional equally spaced chain with one electron per ion is unstable)
-  Expand to other atoms
+  * K-point sampling for Brillouin zones (important contribution of Bloch's Theorem, consider only k within cell in reciprocal space)
+  * Prove/Disprove Peierls' Theorem (states a one-dimensional equally spaced chain with one electron per ion is unstable)
+  * Expand to other atoms
   
 # Special Thanks to Dr. Chen Huang Florida State University
   
