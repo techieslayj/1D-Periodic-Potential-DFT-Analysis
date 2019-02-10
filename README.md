@@ -1,7 +1,7 @@
 # 1D-Periodic-Potential-DFT-Analysis
 Ongoing research/Master's Project involving quantum chemistry and DFT fundamentals
 
-# Code done in MATLAB however models and comparison analysis were created/done using NWChem partnerred with parallel computing modules such as OpenMP/OpenMPI.
+* Code done in MATLAB however models and comparison analysis were created/done using NWChem partnerred with parallel computing modules such as OpenMP/OpenMPI.
 
 
 This is a multi-step Density Functional Theory (DFT) analysis that includes multiple code files and layers of mathematical/physical/chemical analysis. Basic quantum fundamentals are used such as Schrodinger, Hartree-Fock, Kohn-Sham and Bloch's theorem to name a few. I am continuously contributing to this project as it is a part of my Master's project I am putting together for graduate school.
