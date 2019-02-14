@@ -4,7 +4,7 @@ Ongoing research/Master's Project involving quantum chemistry and DFT fundamenta
 * Code done in MATLAB however models and comparison analysis were created/done using NWChem partnerred with parallel computing modules such as OpenMP/OpenMPI.
 
 
-This is a multi-step Density Functional Theory (DFT) analysis that includes multiple code files and layers of mathematical/physical/chemical analysis. Basic quantum fundamentals are used such as Schrodinger, Hartree-Fock, Kohn-Sham and Bloch's theorem to name a few. I am continuously contributing to this project as it is a part of my Master's project I am putting together for graduate school.
+This is a Kohn-Sham Density Functional Theory (DFT) analysis that includes multiple code files and layers of mathematical/physical/chemical analysis. Basic quantum fundamentals are used such as Kohn-Sham and Bloch's theorem. I am continuously contributing to this project as it is a part of my Master's project I am putting together for graduate school.
 
 I begin this repository by posting some of the more important code files for my analysis: 
 
