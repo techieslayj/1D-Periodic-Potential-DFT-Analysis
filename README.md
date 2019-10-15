@@ -22,14 +22,7 @@ I begin this repository by posting some of the more important code files for my 
   
 # The 1D vs. 3D system Issue for External Potential (Fourier Transformation)
   As previously mentioned above our external potential is currently NOT periodic when we run the input program, why? Well this is a relatively easy issue to identify but a little tricky to solve. We are performing a fourier transformation to our system structure factor at a corresponding wave vector (defined mathematically as exp(i*G*R)) as well as the pseudopotential of the overall system. Pure coulumb potential is defined by Z/r where Z is the valence of the atom. In a 3D system we can multiply this integral (which is the difference of Coulumb potential and pseudopotential) by 4*pi*r^2*dr, which correspondingly will cause the r in the Z/r expression to cancels and we eliminate the worry of the system diverging at r=0. However, in a 1D system we do not have a r^2 mathematically to work with which would cause Z to still be divided by r. What does this mean? This is a huge problem because our system would diverge at r=0 meaning simply removing the r^2 value to resemble the system as a 1D space is not sufficient. 
-***I am currently working on the above step of the project.***
-  
-# Still to come:
 
-  * K-point sampling for Brillouin zones (important contribution of Bloch's Theorem, consider only k within cell in reciprocal space)
-  * Demonstrate Peierls' Theorem (states a one-dimensional equally spaced chain with one electron per ion is unstable)
-  * Test our multi-scale DFT program on our system to see how small of a cluster we can use that to reasonably reproduce our benchmark (KS DFT on our system, high level DFT technique which is very time consuming).
-  
 # Special Thanks 
   * Dr. Chen Huang Florida State University
   
