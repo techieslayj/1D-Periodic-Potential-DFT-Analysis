@@ -1,5 +1,5 @@
 # 1D-Periodic-Potential-DFT-Analysis
-Ongoing research/Master's Project involving quantum chemistry and DFT fundamentals
+Ongoing research/Master's Thesis involving quantum chemistry and DFT fundamentals
 
 * Code done in MATLAB however models and comparison analysis were created/done using NWChem partnerred with parallel computing modules such as OpenMP/OpenMPI.
 
